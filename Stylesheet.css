@@ -1,7 +1,6 @@
 /*ACCUEIL*/
 h1, h2 {
     text-align: center;
-    background-color: purple;
 }
 .container {
     text-align: center;
@@ -14,3 +13,4 @@ p {
     margin: 70px;
     padding: 50px;
 }
+/*A PROPOS*/
