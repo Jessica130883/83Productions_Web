@@ -14,3 +14,13 @@ p {
     padding: 50px;
 }
 /*A PROPOS*/
+
+/* NOS ARTISTES*/
+#photoArtiste {
+
+}
+
+/* ACTUALITÉS*/
+th, td {
+    border: 1px solid black;
+}
