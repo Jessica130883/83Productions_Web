@@ -1,6 +1,7 @@
 /*ACCUEIL*/
-h1, h2 {
+h1 {
     text-align: center;
+    padding: 50px;
 }
 .container {
     text-align: center;
@@ -9,20 +10,90 @@ img {
     width: 500px;
     height: 500px;
 }
-p {
-    margin: 70px;
-    padding: 50px;
+.miniBio p {
+    display: flex;
+    align-items: center;
+    background-color:aqua;
+    text-align: justify;
+    padding: 100px 100px;
 }
-/*A PROPOS*/
 
+
+/*A PROPOS*/
+.longBio {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    padding: 100px 100px;
+    text-align: justify;
+}
 /* NOS ARTISTES*/
 div {
     text-align: center;
     margin-bottom: 50px;
 }
-
+#photo1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#photo2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#photo3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#photo4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.photo {
+    margin-top: 20px;
+}
 
 /* ACTUALITÉS*/
 th, td {
     border: 1px solid black;
+}
+h2 {
+    text-align: center;
+}
+.news {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*CONTACT*/
+#numeroTel {
+    font-weight: bold;
+}
+#adresseMail {
+    font-weight: bold;
+}
+#name {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#prenom {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#email {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+textarea {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.myForm {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: grey;
 }
